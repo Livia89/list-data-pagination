@@ -14,7 +14,8 @@ import {
 import { Pagination } from './components/pagination';
 import { keepPreviousData, useQuery } from '@tanstack/react-query';
 import { useSearchParams } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import useDebounceValue from './hooks/use-debounce-value';
 
 export interface TagResponse {
 	first: number;
@@ -33,14 +34,23 @@ export interface Daum {
 }
 
 function App() {
-	const [searchParams] = useSearchParams();
+	const [searchParams, setSearchParams] = useSearchParams();
 	const [filter, setFilter] = useState('');
+
+	const debouncedFilter = useDebounceValue(filter, 1000);
 
 	const page = searchParams.get('page') ? Number(searchParams.get('page')) : 1;
 
+	useEffect(() => {
+		setSearchParams(params => {
+			params.set('page', '1');
+
+			return params;
+		});
+	}, [debouncedFilter, setSearchParams]);
 	// manipulate data from API server
 	const { data: tagsResponse, isLoading } = useQuery<TagResponse>({
-		queryKey: ['get-tags', page], // each page is saved in cache
+		queryKey: ['get-tags', debouncedFilter, page], // each page is saved in cache
 		queryFn: async () => {
 			const response = await fetch(
 				`http://localhost:3333/tags?_page=${page}&_per_page=10`
@@ -48,7 +58,7 @@ function App() {
 			const data = response.json();
 
 			// delay 2s
-			await new Promise(resolve => setTimeout(resolve, 2000));
+			//await new Promise(resolve => setTimeout(resolve, 2000));
 			return data;
 		},
 		placeholderData: keepPreviousData, // show data after loading
