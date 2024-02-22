@@ -1,4 +1,4 @@
-import { FileDown, MoreHorizontal, Plus, Search } from 'lucide-react';
+import { FileDown, Filter, MoreHorizontal, Plus, Search } from 'lucide-react';
 import { Header } from './components/header';
 import { Tabs } from './components/tabs';
 import { Button } from './components/ui/button';
@@ -35,36 +35,37 @@ export interface Daum {
 
 function App() {
 	const [searchParams, setSearchParams] = useSearchParams();
-	const [filter, setFilter] = useState('');
+	const urlFilter = searchParams.get('filter') ?? '';
+	const [filter, setFilter] = useState(urlFilter);
 
 	const debouncedFilter = useDebounceValue(filter, 1000);
 
 	const page = searchParams.get('page') ? Number(searchParams.get('page')) : 1;
 
-	useEffect(() => {
-		setSearchParams(params => {
-			params.set('page', '1');
-
-			return params;
-		});
-	}, [debouncedFilter, setSearchParams]);
 	// manipulate data from API server
 	const { data: tagsResponse, isLoading } = useQuery<TagResponse>({
-		queryKey: ['get-tags', debouncedFilter, page], // each page is saved in cache
+		queryKey: ['get-tags', urlFilter, page], // each page is saved in cache
 		queryFn: async () => {
 			const response = await fetch(
-				`http://localhost:3333/tags?_page=${page}&_per_page=10`
+				`http://localhost:3333/tags?_page=${page}&_per_page=10&title=${urlFilter}`
 			);
 			const data = response.json();
 
 			// delay 2s
-			//await new Promise(resolve => setTimeout(resolve, 2000));
+			await new Promise(resolve => setTimeout(resolve, 2000));
 			return data;
 		},
 		placeholderData: keepPreviousData, // show data after loading
 		staleTime: 1000 * 60, // clear cache in 60s
 	});
 
+	function handleFilter() {
+		setSearchParams(params => {
+			params.set('page', '1');
+			params.set('filter', filter);
+			return params;
+		});
+	}
 	if (isLoading) {
 		return null;
 	}
@@ -83,15 +84,19 @@ function App() {
 					</Button>
 				</div>
 				<div className="flex items-center justify-between">
-					<Input variant="filter">
-						<Search className="size-3" />
-						<Control
-							placeholder="Search tags..."
-							onChange={e => setFilter(e.target.value)}
-							value={filter}
-						/>
-					</Input>
-					<div className=""></div>
+					<div className="flex items-center">
+						<Input variant="filter">
+							<Search className="size-3" />
+							<Control
+								placeholder="Search tags..."
+								onChange={e => setFilter(e.target.value)}
+								value={filter}
+							/>
+						</Input>
+						<Button onClick={handleFilter} type="submit">
+							<Filter className="size-3" /> Filter
+						</Button>
+					</div>
 					<Button>
 						<FileDown className="size-3" /> Export
 					</Button>
