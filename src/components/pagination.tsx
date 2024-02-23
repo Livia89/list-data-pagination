@@ -13,11 +13,19 @@ interface PaginationProps {
 	pages: number;
 	items: number;
 	page: number;
+	rowsPage: string;
+	handleRowsPage: (e: string) => void;
 }
 
-export function Pagination({ items, page, pages }: PaginationProps) {
+export function Pagination({
+	items,
+	page,
+	pages,
+	rowsPage,
+	handleRowsPage,
+}: PaginationProps) {
 	const [, setSearchParams] = useSearchParams();
-	
+
 	function firstPage() {
 		setSearchParams(params => {
 			params.set('page', '1');
@@ -60,12 +68,14 @@ export function Pagination({ items, page, pages }: PaginationProps) {
 
 	return (
 		<div className="flex text-sm items-center justify-between text-zinc-500">
-			<span>Showing 10 of {items} items</span>
+			<span>
+				Showing {rowsPage} of {items} items
+			</span>
 			<div className="flex items-center gap-8">
 				<div className="flex items-center gap-2">
 					<span>Rows per page</span>
 
-					<Select defaultValue="10">
+					<Select defaultValue={rowsPage} onValueChange={handleRowsPage}>
 						<SelectTrigger aria-label="Page" />
 						<SelectContent>
 							<SelectItem value="10">10</SelectItem>
