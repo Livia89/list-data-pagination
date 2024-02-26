@@ -16,8 +16,8 @@ import { Pagination } from './components/pagination';
 import { keepPreviousData, useQuery } from '@tanstack/react-query';
 import { useSearchParams } from 'react-router-dom';
 import { useState } from 'react';
-import useDebounceValue from './hooks/use-debounce-value';
 import { CreateTagForm } from './components/create-tag-form';
+import useDebounceValue from './hooks/use-debounce-value';
 
 export interface TagResponse {
 	first: number;
@@ -40,8 +40,7 @@ function App() {
 	const [searchParams, setSearchParams] = useSearchParams();
 	const urlFilter = searchParams.get('filter') ?? '';
 	const [filter, setFilter] = useState(urlFilter);
-
-	const debouncedFilter = useDebounceValue(filter, 1000);
+	const [amountPerPage, setAmountPerPage] = useState<string>('10');
 
 	const page = searchParams.get('page') ? Number(searchParams.get('page')) : 1;
 
@@ -50,18 +49,22 @@ function App() {
 		queryKey: ['get-tags', urlFilter, page], // each page is saved in cache
 		queryFn: async () => {
 			const response = await fetch(
-				`http://localhost:3333/tags?_page=${page}&_per_page=10&title=${urlFilter}`
+				`http://localhost:3333/tags?_page=${page}&_per_page=
+				${amountPerPage}&title=${urlFilter}`
 			);
 			const data = response.json();
 
 			// delay 2s
+
 			await new Promise(resolve => setTimeout(resolve, 2000));
 			return data;
 		},
+
 		placeholderData: keepPreviousData, // show data after loading
 		staleTime: 1000 * 60, // clear cache in 60s
 	});
 
+	useDebounceValue(urlFilter, 0);
 	function handleFilter() {
 		setSearchParams(params => {
 			params.set('page', '1');
@@ -71,6 +74,19 @@ function App() {
 	}
 	if (isLoading) {
 		return null;
+	}
+
+	function setAmountRowsPage(e: string) {
+		setSearchParams(params => {
+			params.set('_page', String(page) || '1');
+			params.set('_per_page', e);
+			return params;
+		});
+	}
+
+	function handlePageRows(e: string) {
+		setAmountPerPage(e);
+		setAmountRowsPage(e);
 	}
 	return (
 		<div className="py-10 space-y-8">
@@ -105,7 +121,7 @@ function App() {
 					</Dialog.Root>
 				</div>
 				<div className="flex items-center justify-between">
-					<div className="flex items-center">
+					<div className="flex items-center space-x-2">
 						<Input variant="filter">
 							<Search className="size-3" />
 							<Control
@@ -160,6 +176,8 @@ function App() {
 						items={tagsResponse.items}
 						page={page}
 						pages={tagsResponse.pages}
+						rowsPage={amountPerPage}
+						handleRowsPage={handlePageRows}
 					/>
 				)}
 			</main>
