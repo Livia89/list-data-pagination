@@ -1,1143 +1,1155 @@
 {
-	"tags": [
-		{
-			"title": "React",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "13c4"
-		},
-		{
-			"title": "Angular",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "cdac"
-		},
-		{
-			"title": "Vue",
-			"slug": "old",
-			"amountOfVideos": 20,
-			"id": "327e"
-		},
-		{
-			"title": "Ember",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "c623"
-		},
-		{
-			"title": "Backbone",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "e257"
-		},
-		{
-			"title": "Svelte",
-			"slug": "old",
-			"amountOfVideos": 3,
-			"id": "3a89"
-		},
-		{
-			"title": "Meteor",
-			"slug": "old",
-			"amountOfVideos": 18,
-			"id": "f741"
-		},
-		{
-			"title": "Node.js",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "f2f4"
-		},
-		{
-			"title": "Express",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "7a68"
-		},
-		{
-			"title": "Django",
-			"slug": "old",
-			"amountOfVideos": 22,
-			"id": "19bc"
-		},
-		{
-			"title": "React Native",
-			"slug": "old",
-			"amountOfVideos": 14,
-			"id": "eed0"
-		},
-		{
-			"title": "Ionic",
-			"slug": "old",
-			"amountOfVideos": 9,
-			"id": "9e83"
-		},
-		{
-			"title": "Flutter",
-			"slug": "old",
-			"amountOfVideos": 25,
-			"id": "1c4f"
-		},
-		{
-			"title": "SwiftUI",
-			"slug": "old",
-			"amountOfVideos": 6,
-			"id": "c0ce"
-		},
-		{
-			"title": "Xamarin",
-			"slug": "old",
-			"amountOfVideos": 17,
-			"id": "3e56"
-		},
-		{
-			"title": "Laravel",
-			"slug": "old",
-			"amountOfVideos": 11,
-			"id": "68fe"
-		},
-		{
-			"title": "Spring Boot",
-			"slug": "old",
-			"amountOfVideos": 16,
-			"id": "57c1"
-		},
-		{
-			"title": "Flask",
-			"slug": "old",
-			"amountOfVideos": 4,
-			"id": "f4a9"
-		},
-		{
-			"title": "Ruby on Rails",
-			"slug": "old",
-			"amountOfVideos": 13,
-			"id": "a467"
-		},
-		{
-			"title": "ASP.NET",
-			"slug": "old",
-			"amountOfVideos": 19,
-			"id": "e80d"
-		},
-		{
-			"title": "Symfony",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "e1b7"
-		},
-		{
-			"title": "jQuery",
-			"slug": "old",
-			"amountOfVideos": 23,
-			"id": "a3ec"
-		},
-		{
-			"title": "Bootstrap",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "f43f"
-		},
-		{
-			"title": "Tailwind CSS",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "da08"
-		},
-		{
-			"title": "Materialize CSS",
-			"slug": "old",
-			"amountOfVideos": 21,
-			"id": "f82d"
-		},
-		{
-			"title": "Bulma",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "0242"
-		},
-		{
-			"title": "Foundation",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "b8ef"
-		},
-		{
-			"title": "Skeleton",
-			"slug": "old",
-			"amountOfVideos": 28,
-			"id": "a30e"
-		},
-		{
-			"title": "Semantic UI",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "e09b"
-		},
-		{
-			"title": "Ant Design",
-			"slug": "old",
-			"amountOfVideos": 30,
-			"id": "3b68"
-		},
-		{
-			"title": "UIKit",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "70d5"
-		},
-		{
-			"title": "React",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "7d4c"
-		},
-		{
-			"title": "Angular",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "6b65"
-		},
-		{
-			"title": "Vue",
-			"slug": "old",
-			"amountOfVideos": 20,
-			"id": "0d38"
-		},
-		{
-			"title": "Ember",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "e21e"
-		},
-		{
-			"title": "Backbone",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "2fcd"
-		},
-		{
-			"title": "Svelte",
-			"slug": "old",
-			"amountOfVideos": 3,
-			"id": "5993"
-		},
-		{
-			"title": "Meteor",
-			"slug": "old",
-			"amountOfVideos": 18,
-			"id": "50e2"
-		},
-		{
-			"title": "Node.js",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "286a"
-		},
-		{
-			"title": "Express",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "32d3"
-		},
-		{
-			"title": "Django",
-			"slug": "old",
-			"amountOfVideos": 22,
-			"id": "5ee5"
-		},
-		{
-			"title": "React Native",
-			"slug": "old",
-			"amountOfVideos": 14,
-			"id": "61da"
-		},
-		{
-			"title": "Ionic",
-			"slug": "old",
-			"amountOfVideos": 9,
-			"id": "2a2a"
-		},
-		{
-			"title": "Flutter",
-			"slug": "old",
-			"amountOfVideos": 25,
-			"id": "c11d"
-		},
-		{
-			"title": "SwiftUI",
-			"slug": "old",
-			"amountOfVideos": 6,
-			"id": "36b8"
-		},
-		{
-			"title": "Xamarin",
-			"slug": "old",
-			"amountOfVideos": 17,
-			"id": "90bd"
-		},
-		{
-			"title": "Laravel",
-			"slug": "old",
-			"amountOfVideos": 11,
-			"id": "9445"
-		},
-		{
-			"title": "Spring Boot",
-			"slug": "old",
-			"amountOfVideos": 16,
-			"id": "9b26"
-		},
-		{
-			"title": "Flask",
-			"slug": "old",
-			"amountOfVideos": 4,
-			"id": "2966"
-		},
-		{
-			"title": "Ruby on Rails",
-			"slug": "old",
-			"amountOfVideos": 13,
-			"id": "fedf"
-		},
-		{
-			"title": "ASP.NET",
-			"slug": "old",
-			"amountOfVideos": 19,
-			"id": "7783"
-		},
-		{
-			"title": "Symfony",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "cc27"
-		},
-		{
-			"title": "jQuery",
-			"slug": "old",
-			"amountOfVideos": 23,
-			"id": "fd10"
-		},
-		{
-			"title": "Bootstrap",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "f4b3"
-		},
-		{
-			"title": "Tailwind CSS",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "d57b"
-		},
-		{
-			"title": "Materialize CSS",
-			"slug": "old",
-			"amountOfVideos": 21,
-			"id": "d297"
-		},
-		{
-			"title": "Bulma",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "bd02"
-		},
-		{
-			"title": "Foundation",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "851e"
-		},
-		{
-			"title": "Skeleton",
-			"slug": "old",
-			"amountOfVideos": 28,
-			"id": "1b31"
-		},
-		{
-			"title": "Semantic UI",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "2885"
-		},
-		{
-			"title": "Ant Design",
-			"slug": "old",
-			"amountOfVideos": 30,
-			"id": "7b75"
-		},
-		{
-			"title": "UIKit",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "151e"
-		},
-		{
-			"title": "React",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "edeb"
-		},
-		{
-			"title": "Angular",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "4101"
-		},
-		{
-			"title": "Vue",
-			"slug": "old",
-			"amountOfVideos": 20,
-			"id": "9b1c"
-		},
-		{
-			"title": "Ember",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "e047"
-		},
-		{
-			"title": "Backbone",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "56ee"
-		},
-		{
-			"title": "Svelte",
-			"slug": "old",
-			"amountOfVideos": 3,
-			"id": "ce47"
-		},
-		{
-			"title": "Meteor",
-			"slug": "old",
-			"amountOfVideos": 18,
-			"id": "2915"
-		},
-		{
-			"title": "Node.js",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "9418"
-		},
-		{
-			"title": "Express",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "7f40"
-		},
-		{
-			"title": "Django",
-			"slug": "old",
-			"amountOfVideos": 22,
-			"id": "7387"
-		},
-		{
-			"title": "React Native",
-			"slug": "old",
-			"amountOfVideos": 14,
-			"id": "b48d"
-		},
-		{
-			"title": "Ionic",
-			"slug": "old",
-			"amountOfVideos": 9,
-			"id": "4179"
-		},
-		{
-			"title": "Flutter",
-			"slug": "old",
-			"amountOfVideos": 25,
-			"id": "66cd"
-		},
-		{
-			"title": "SwiftUI",
-			"slug": "old",
-			"amountOfVideos": 6,
-			"id": "7a5c"
-		},
-		{
-			"title": "Xamarin",
-			"slug": "old",
-			"amountOfVideos": 17,
-			"id": "1737"
-		},
-		{
-			"title": "Laravel",
-			"slug": "old",
-			"amountOfVideos": 11,
-			"id": "319e"
-		},
-		{
-			"title": "Spring Boot",
-			"slug": "old",
-			"amountOfVideos": 16,
-			"id": "d403"
-		},
-		{
-			"title": "Flask",
-			"slug": "old",
-			"amountOfVideos": 4,
-			"id": "a3e0"
-		},
-		{
-			"title": "Ruby on Rails",
-			"slug": "old",
-			"amountOfVideos": 13,
-			"id": "f43d"
-		},
-		{
-			"title": "ASP.NET",
-			"slug": "old",
-			"amountOfVideos": 19,
-			"id": "1b8c"
-		},
-		{
-			"title": "Symfony",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "ad4b"
-		},
-		{
-			"title": "jQuery",
-			"slug": "old",
-			"amountOfVideos": 23,
-			"id": "fce8"
-		},
-		{
-			"title": "Bootstrap",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "b06f"
-		},
-		{
-			"title": "Tailwind CSS",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "7ffe"
-		},
-		{
-			"title": "Materialize CSS",
-			"slug": "old",
-			"amountOfVideos": 21,
-			"id": "03e7"
-		},
-		{
-			"title": "Bulma",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "981f"
-		},
-		{
-			"title": "Foundation",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "4fce"
-		},
-		{
-			"title": "Skeleton",
-			"slug": "old",
-			"amountOfVideos": 28,
-			"id": "fca6"
-		},
-		{
-			"title": "Semantic UI",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "e579"
-		},
-		{
-			"title": "Ant Design",
-			"slug": "old",
-			"amountOfVideos": 30,
-			"id": "47c2"
-		},
-		{
-			"title": "UIKit",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "6001"
-		},
-		{
-			"title": "React",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "c227"
-		},
-		{
-			"title": "Angular",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "cdd5"
-		},
-		{
-			"title": "Vue",
-			"slug": "old",
-			"amountOfVideos": 20,
-			"id": "b087"
-		},
-		{
-			"title": "Ember",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "b1b2"
-		},
-		{
-			"title": "Backbone",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "5280"
-		},
-		{
-			"title": "Svelte",
-			"slug": "old",
-			"amountOfVideos": 3,
-			"id": "ac51"
-		},
-		{
-			"title": "Meteor",
-			"slug": "old",
-			"amountOfVideos": 18,
-			"id": "1ec8"
-		},
-		{
-			"title": "Node.js",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "46da"
-		},
-		{
-			"title": "Express",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "b4fa"
-		},
-		{
-			"title": "Django",
-			"slug": "old",
-			"amountOfVideos": 22,
-			"id": "c633"
-		},
-		{
-			"title": "React Native",
-			"slug": "old",
-			"amountOfVideos": 14,
-			"id": "9261"
-		},
-		{
-			"title": "Ionic",
-			"slug": "old",
-			"amountOfVideos": 9,
-			"id": "b7b8"
-		},
-		{
-			"title": "Flutter",
-			"slug": "old",
-			"amountOfVideos": 25,
-			"id": "b939"
-		},
-		{
-			"title": "SwiftUI",
-			"slug": "old",
-			"amountOfVideos": 6,
-			"id": "b03b"
-		},
-		{
-			"title": "Xamarin",
-			"slug": "old",
-			"amountOfVideos": 17,
-			"id": "8730"
-		},
-		{
-			"title": "Laravel",
-			"slug": "old",
-			"amountOfVideos": 11,
-			"id": "0724"
-		},
-		{
-			"title": "Spring Boot",
-			"slug": "old",
-			"amountOfVideos": 16,
-			"id": "f968"
-		},
-		{
-			"title": "Flask",
-			"slug": "old",
-			"amountOfVideos": 4,
-			"id": "c2f5"
-		},
-		{
-			"title": "Ruby on Rails",
-			"slug": "old",
-			"amountOfVideos": 13,
-			"id": "560b"
-		},
-		{
-			"title": "ASP.NET",
-			"slug": "old",
-			"amountOfVideos": 19,
-			"id": "6bdf"
-		},
-		{
-			"title": "Symfony",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "2391"
-		},
-		{
-			"title": "jQuery",
-			"slug": "old",
-			"amountOfVideos": 23,
-			"id": "fa5f"
-		},
-		{
-			"title": "Bootstrap",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "6242"
-		},
-		{
-			"title": "Tailwind CSS",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "b7cc"
-		},
-		{
-			"title": "Materialize CSS",
-			"slug": "old",
-			"amountOfVideos": 21,
-			"id": "3d29"
-		},
-		{
-			"title": "Bulma",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "149d"
-		},
-		{
-			"title": "Foundation",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "b7f5"
-		},
-		{
-			"title": "Skeleton",
-			"slug": "old",
-			"amountOfVideos": 28,
-			"id": "5436"
-		},
-		{
-			"title": "Semantic UI",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "3c40"
-		},
-		{
-			"title": "Ant Design",
-			"slug": "old",
-			"amountOfVideos": 30,
-			"id": "d69f"
-		},
-		{
-			"title": "UIKit",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "8283"
-		},
-		{
-			"title": "React",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "ad1b"
-		},
-		{
-			"title": "Angular",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "b600"
-		},
-		{
-			"title": "Vue",
-			"slug": "old",
-			"amountOfVideos": 20,
-			"id": "7ed7"
-		},
-		{
-			"title": "Ember",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "9915"
-		},
-		{
-			"title": "Backbone",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "fd78"
-		},
-		{
-			"title": "Svelte",
-			"slug": "old",
-			"amountOfVideos": 3,
-			"id": "e8c8"
-		},
-		{
-			"title": "Meteor",
-			"slug": "old",
-			"amountOfVideos": 18,
-			"id": "dfcf"
-		},
-		{
-			"title": "Node.js",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "9e28"
-		},
-		{
-			"title": "Express",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "5f3a"
-		},
-		{
-			"title": "Django",
-			"slug": "old",
-			"amountOfVideos": 22,
-			"id": "79e2"
-		},
-		{
-			"title": "React Native",
-			"slug": "old",
-			"amountOfVideos": 14,
-			"id": "a982"
-		},
-		{
-			"title": "Ionic",
-			"slug": "old",
-			"amountOfVideos": 9,
-			"id": "3d62"
-		},
-		{
-			"title": "Flutter",
-			"slug": "old",
-			"amountOfVideos": 25,
-			"id": "c01d"
-		},
-		{
-			"title": "SwiftUI",
-			"slug": "old",
-			"amountOfVideos": 6,
-			"id": "8100"
-		},
-		{
-			"title": "Xamarin",
-			"slug": "old",
-			"amountOfVideos": 17,
-			"id": "be5e"
-		},
-		{
-			"title": "Laravel",
-			"slug": "old",
-			"amountOfVideos": 11,
-			"id": "8c38"
-		},
-		{
-			"title": "Spring Boot",
-			"slug": "old",
-			"amountOfVideos": 16,
-			"id": "c54f"
-		},
-		{
-			"title": "Flask",
-			"slug": "old",
-			"amountOfVideos": 4,
-			"id": "f029"
-		},
-		{
-			"title": "Ruby on Rails",
-			"slug": "old",
-			"amountOfVideos": 13,
-			"id": "39bf"
-		},
-		{
-			"title": "ASP.NET",
-			"slug": "old",
-			"amountOfVideos": 19,
-			"id": "9082"
-		},
-		{
-			"title": "Symfony",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "a96b"
-		},
-		{
-			"title": "jQuery",
-			"slug": "old",
-			"amountOfVideos": 23,
-			"id": "5c59"
-		},
-		{
-			"title": "Bootstrap",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "445d"
-		},
-		{
-			"title": "Tailwind CSS",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "1e1f"
-		},
-		{
-			"title": "Materialize CSS",
-			"slug": "old",
-			"amountOfVideos": 21,
-			"id": "16c1"
-		},
-		{
-			"title": "Bulma",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "162e"
-		},
-		{
-			"title": "Foundation",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "b736"
-		},
-		{
-			"title": "Skeleton",
-			"slug": "old",
-			"amountOfVideos": 28,
-			"id": "8b97"
-		},
-		{
-			"title": "React",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "6624"
-		},
-		{
-			"title": "Angular",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "5f9e"
-		},
-		{
-			"title": "Vue",
-			"slug": "old",
-			"amountOfVideos": 20,
-			"id": "eb0b"
-		},
-		{
-			"title": "Ember",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "def2"
-		},
-		{
-			"title": "Backbone",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "d079"
-		},
-		{
-			"title": "Svelte",
-			"slug": "old",
-			"amountOfVideos": 3,
-			"id": "7ae8"
-		},
-		{
-			"title": "Meteor",
-			"slug": "old",
-			"amountOfVideos": 18,
-			"id": "1bf1"
-		},
-		{
-			"title": "Node.js",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "5a59"
-		},
-		{
-			"title": "Express",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "5598"
-		},
-		{
-			"title": "Django",
-			"slug": "old",
-			"amountOfVideos": 22,
-			"id": "b0ad"
-		},
-		{
-			"title": "React Native",
-			"slug": "old",
-			"amountOfVideos": 14,
-			"id": "a69d"
-		},
-		{
-			"title": "Ionic",
-			"slug": "old",
-			"amountOfVideos": 9,
-			"id": "c269"
-		},
-		{
-			"title": "Flutter",
-			"slug": "old",
-			"amountOfVideos": 25,
-			"id": "dc20"
-		},
-		{
-			"title": "SwiftUI",
-			"slug": "old",
-			"amountOfVideos": 6,
-			"id": "23d1"
-		},
-		{
-			"title": "Xamarin",
-			"slug": "old",
-			"amountOfVideos": 17,
-			"id": "d2c7"
-		},
-		{
-			"title": "Laravel",
-			"slug": "old",
-			"amountOfVideos": 11,
-			"id": "fc0f"
-		},
-		{
-			"title": "Spring Boot",
-			"slug": "old",
-			"amountOfVideos": 16,
-			"id": "ee7c"
-		},
-		{
-			"title": "Flask",
-			"slug": "old",
-			"amountOfVideos": 4,
-			"id": "63ba"
-		},
-		{
-			"title": "Ruby on Rails",
-			"slug": "old",
-			"amountOfVideos": 13,
-			"id": "033d"
-		},
-		{
-			"title": "ASP.NET",
-			"slug": "old",
-			"amountOfVideos": 19,
-			"id": "06db"
-		},
-		{
-			"title": "Symfony",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "567c"
-		},
-		{
-			"title": "jQuery",
-			"slug": "old",
-			"amountOfVideos": 23,
-			"id": "8d2a"
-		},
-		{
-			"title": "Bootstrap",
-			"slug": "old",
-			"amountOfVideos": 12,
-			"id": "1669"
-		},
-		{
-			"title": "Tailwind CSS",
-			"slug": "old",
-			"amountOfVideos": 7,
-			"id": "aa3a"
-		},
-		{
-			"title": "Materialize CSS",
-			"slug": "old",
-			"amountOfVideos": 21,
-			"id": "1ff0"
-		},
-		{
-			"title": "Bulma",
-			"slug": "old",
-			"amountOfVideos": 15,
-			"id": "e86d"
-		},
-		{
-			"title": "Foundation",
-			"slug": "old",
-			"amountOfVideos": 10,
-			"id": "951a"
-		},
-		{
-			"title": "Skeleton",
-			"slug": "old",
-			"amountOfVideos": 28,
-			"id": "7648"
-		},
-		{
-			"title": "Semantic UI",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "19a0"
-		},
-		{
-			"title": "Ant Design",
-			"slug": "old",
-			"amountOfVideos": 30,
-			"id": "c01e"
-		},
-		{
-			"title": "UIKit",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "0e25"
-		},
-		{
-			"title": "Semantic UI",
-			"slug": "old",
-			"amountOfVideos": 5,
-			"id": "509c"
-		},
-		{
-			"title": "Ant Design",
-			"slug": "old",
-			"amountOfVideos": 30,
-			"id": "ebf3"
-		},
-		{
-			"title": "UIKit",
-			"slug": "old",
-			"amountOfVideos": 8,
-			"id": "ed6e"
-		},
-		{
-			"id": "ae74",
-			"name": "asdsadsa",
-			"slug": "asdsadsa"
-		},
-		{
-			"id": "761a",
-			"title": "eaeaea eaeaea",
-			"slug": "eaeaea-eaeaea",
-			"amountOfVideos": 0
-		},
-		{
-			"id": "e1ff",
-			"title": "asdassad",
-			"slug": "asdassad",
-			"amountOfVideos": 0
-		},
-		{
-			"id": "76ae",
-			"title": "eae meu irmão",
-			"slug": "eae-meu-irmao",
-			"amountOfVideos": 0
-		}
-	]
+  "tags": [
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "13c4"
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "cdac"
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 20,
+      "id": "327e"
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "c623"
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "e257"
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 3,
+      "id": "3a89"
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 18,
+      "id": "f741"
+    },
+    {
+      "title": "Node.js",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "f2f4"
+    },
+    {
+      "title": "Express",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "7a68"
+    },
+    {
+      "title": "Django",
+      "slug": "old",
+      "amountOfVideos": 22,
+      "id": "19bc"
+    },
+    {
+      "title": "React Native",
+      "slug": "old",
+      "amountOfVideos": 14,
+      "id": "eed0"
+    },
+    {
+      "title": "Ionic",
+      "slug": "old",
+      "amountOfVideos": 9,
+      "id": "9e83"
+    },
+    {
+      "title": "Flutter",
+      "slug": "old",
+      "amountOfVideos": 25,
+      "id": "1c4f"
+    },
+    {
+      "title": "SwiftUI",
+      "slug": "old",
+      "amountOfVideos": 6,
+      "id": "c0ce"
+    },
+    {
+      "title": "Xamarin",
+      "slug": "old",
+      "amountOfVideos": 17,
+      "id": "3e56"
+    },
+    {
+      "title": "Laravel",
+      "slug": "old",
+      "amountOfVideos": 11,
+      "id": "68fe"
+    },
+    {
+      "title": "Spring Boot",
+      "slug": "old",
+      "amountOfVideos": 16,
+      "id": "57c1"
+    },
+    {
+      "title": "Flask",
+      "slug": "old",
+      "amountOfVideos": 4,
+      "id": "f4a9"
+    },
+    {
+      "title": "Ruby on Rails",
+      "slug": "old",
+      "amountOfVideos": 13,
+      "id": "a467"
+    },
+    {
+      "title": "ASP.NET",
+      "slug": "old",
+      "amountOfVideos": 19,
+      "id": "e80d"
+    },
+    {
+      "title": "Symfony",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "e1b7"
+    },
+    {
+      "title": "jQuery",
+      "slug": "old",
+      "amountOfVideos": 23,
+      "id": "a3ec"
+    },
+    {
+      "title": "Bootstrap",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "f43f"
+    },
+    {
+      "title": "Tailwind CSS",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "da08"
+    },
+    {
+      "title": "Materialize CSS",
+      "slug": "old",
+      "amountOfVideos": 21,
+      "id": "f82d"
+    },
+    {
+      "title": "Bulma",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "0242"
+    },
+    {
+      "title": "Foundation",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "b8ef"
+    },
+    {
+      "title": "Skeleton",
+      "slug": "old",
+      "amountOfVideos": 28,
+      "id": "a30e"
+    },
+    {
+      "title": "Semantic UI",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "e09b"
+    },
+    {
+      "title": "Ant Design",
+      "slug": "old",
+      "amountOfVideos": 30,
+      "id": "3b68"
+    },
+    {
+      "title": "UIKit",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "70d5"
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "7d4c"
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "6b65"
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 20,
+      "id": "0d38"
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "e21e"
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "2fcd"
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 3,
+      "id": "5993"
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 18,
+      "id": "50e2"
+    },
+    {
+      "title": "Node.js",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "286a"
+    },
+    {
+      "title": "Express",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "32d3"
+    },
+    {
+      "title": "Django",
+      "slug": "old",
+      "amountOfVideos": 22,
+      "id": "5ee5"
+    },
+    {
+      "title": "React Native",
+      "slug": "old",
+      "amountOfVideos": 14,
+      "id": "61da"
+    },
+    {
+      "title": "Ionic",
+      "slug": "old",
+      "amountOfVideos": 9,
+      "id": "2a2a"
+    },
+    {
+      "title": "Flutter",
+      "slug": "old",
+      "amountOfVideos": 25,
+      "id": "c11d"
+    },
+    {
+      "title": "SwiftUI",
+      "slug": "old",
+      "amountOfVideos": 6,
+      "id": "36b8"
+    },
+    {
+      "title": "Xamarin",
+      "slug": "old",
+      "amountOfVideos": 17,
+      "id": "90bd"
+    },
+    {
+      "title": "Laravel",
+      "slug": "old",
+      "amountOfVideos": 11,
+      "id": "9445"
+    },
+    {
+      "title": "Spring Boot",
+      "slug": "old",
+      "amountOfVideos": 16,
+      "id": "9b26"
+    },
+    {
+      "title": "Flask",
+      "slug": "old",
+      "amountOfVideos": 4,
+      "id": "2966"
+    },
+    {
+      "title": "Ruby on Rails",
+      "slug": "old",
+      "amountOfVideos": 13,
+      "id": "fedf"
+    },
+    {
+      "title": "ASP.NET",
+      "slug": "old",
+      "amountOfVideos": 19,
+      "id": "7783"
+    },
+    {
+      "title": "Symfony",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "cc27"
+    },
+    {
+      "title": "jQuery",
+      "slug": "old",
+      "amountOfVideos": 23,
+      "id": "fd10"
+    },
+    {
+      "title": "Bootstrap",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "f4b3"
+    },
+    {
+      "title": "Tailwind CSS",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "d57b"
+    },
+    {
+      "title": "Materialize CSS",
+      "slug": "old",
+      "amountOfVideos": 21,
+      "id": "d297"
+    },
+    {
+      "title": "Bulma",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "bd02"
+    },
+    {
+      "title": "Foundation",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "851e"
+    },
+    {
+      "title": "Skeleton",
+      "slug": "old",
+      "amountOfVideos": 28,
+      "id": "1b31"
+    },
+    {
+      "title": "Semantic UI",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "2885"
+    },
+    {
+      "title": "Ant Design",
+      "slug": "old",
+      "amountOfVideos": 30,
+      "id": "7b75"
+    },
+    {
+      "title": "UIKit",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "151e"
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "edeb"
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "4101"
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 20,
+      "id": "9b1c"
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "e047"
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "56ee"
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 3,
+      "id": "ce47"
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 18,
+      "id": "2915"
+    },
+    {
+      "title": "Node.js",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "9418"
+    },
+    {
+      "title": "Express",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "7f40"
+    },
+    {
+      "title": "Django",
+      "slug": "old",
+      "amountOfVideos": 22,
+      "id": "7387"
+    },
+    {
+      "title": "React Native",
+      "slug": "old",
+      "amountOfVideos": 14,
+      "id": "b48d"
+    },
+    {
+      "title": "Ionic",
+      "slug": "old",
+      "amountOfVideos": 9,
+      "id": "4179"
+    },
+    {
+      "title": "Flutter",
+      "slug": "old",
+      "amountOfVideos": 25,
+      "id": "66cd"
+    },
+    {
+      "title": "SwiftUI",
+      "slug": "old",
+      "amountOfVideos": 6,
+      "id": "7a5c"
+    },
+    {
+      "title": "Xamarin",
+      "slug": "old",
+      "amountOfVideos": 17,
+      "id": "1737"
+    },
+    {
+      "title": "Laravel",
+      "slug": "old",
+      "amountOfVideos": 11,
+      "id": "319e"
+    },
+    {
+      "title": "Spring Boot",
+      "slug": "old",
+      "amountOfVideos": 16,
+      "id": "d403"
+    },
+    {
+      "title": "Flask",
+      "slug": "old",
+      "amountOfVideos": 4,
+      "id": "a3e0"
+    },
+    {
+      "title": "Ruby on Rails",
+      "slug": "old",
+      "amountOfVideos": 13,
+      "id": "f43d"
+    },
+    {
+      "title": "ASP.NET",
+      "slug": "old",
+      "amountOfVideos": 19,
+      "id": "1b8c"
+    },
+    {
+      "title": "Symfony",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "ad4b"
+    },
+    {
+      "title": "jQuery",
+      "slug": "old",
+      "amountOfVideos": 23,
+      "id": "fce8"
+    },
+    {
+      "title": "Bootstrap",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "b06f"
+    },
+    {
+      "title": "Tailwind CSS",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "7ffe"
+    },
+    {
+      "title": "Materialize CSS",
+      "slug": "old",
+      "amountOfVideos": 21,
+      "id": "03e7"
+    },
+    {
+      "title": "Bulma",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "981f"
+    },
+    {
+      "title": "Foundation",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "4fce"
+    },
+    {
+      "title": "Skeleton",
+      "slug": "old",
+      "amountOfVideos": 28,
+      "id": "fca6"
+    },
+    {
+      "title": "Semantic UI",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "e579"
+    },
+    {
+      "title": "Ant Design",
+      "slug": "old",
+      "amountOfVideos": 30,
+      "id": "47c2"
+    },
+    {
+      "title": "UIKit",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "6001"
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "c227"
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "cdd5"
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 20,
+      "id": "b087"
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "b1b2"
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "5280"
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 3,
+      "id": "ac51"
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 18,
+      "id": "1ec8"
+    },
+    {
+      "title": "Node.js",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "46da"
+    },
+    {
+      "title": "Express",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "b4fa"
+    },
+    {
+      "title": "Django",
+      "slug": "old",
+      "amountOfVideos": 22,
+      "id": "c633"
+    },
+    {
+      "title": "React Native",
+      "slug": "old",
+      "amountOfVideos": 14,
+      "id": "9261"
+    },
+    {
+      "title": "Ionic",
+      "slug": "old",
+      "amountOfVideos": 9,
+      "id": "b7b8"
+    },
+    {
+      "title": "Flutter",
+      "slug": "old",
+      "amountOfVideos": 25,
+      "id": "b939"
+    },
+    {
+      "title": "SwiftUI",
+      "slug": "old",
+      "amountOfVideos": 6,
+      "id": "b03b"
+    },
+    {
+      "title": "Xamarin",
+      "slug": "old",
+      "amountOfVideos": 17,
+      "id": "8730"
+    },
+    {
+      "title": "Laravel",
+      "slug": "old",
+      "amountOfVideos": 11,
+      "id": "0724"
+    },
+    {
+      "title": "Spring Boot",
+      "slug": "old",
+      "amountOfVideos": 16,
+      "id": "f968"
+    },
+    {
+      "title": "Flask",
+      "slug": "old",
+      "amountOfVideos": 4,
+      "id": "c2f5"
+    },
+    {
+      "title": "Ruby on Rails",
+      "slug": "old",
+      "amountOfVideos": 13,
+      "id": "560b"
+    },
+    {
+      "title": "ASP.NET",
+      "slug": "old",
+      "amountOfVideos": 19,
+      "id": "6bdf"
+    },
+    {
+      "title": "Symfony",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "2391"
+    },
+    {
+      "title": "jQuery",
+      "slug": "old",
+      "amountOfVideos": 23,
+      "id": "fa5f"
+    },
+    {
+      "title": "Bootstrap",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "6242"
+    },
+    {
+      "title": "Tailwind CSS",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "b7cc"
+    },
+    {
+      "title": "Materialize CSS",
+      "slug": "old",
+      "amountOfVideos": 21,
+      "id": "3d29"
+    },
+    {
+      "title": "Bulma",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "149d"
+    },
+    {
+      "title": "Foundation",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "b7f5"
+    },
+    {
+      "title": "Skeleton",
+      "slug": "old",
+      "amountOfVideos": 28,
+      "id": "5436"
+    },
+    {
+      "title": "Semantic UI",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "3c40"
+    },
+    {
+      "title": "Ant Design",
+      "slug": "old",
+      "amountOfVideos": 30,
+      "id": "d69f"
+    },
+    {
+      "title": "UIKit",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "8283"
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "ad1b"
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "b600"
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 20,
+      "id": "7ed7"
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "9915"
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "fd78"
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 3,
+      "id": "e8c8"
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 18,
+      "id": "dfcf"
+    },
+    {
+      "title": "Node.js",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "9e28"
+    },
+    {
+      "title": "Express",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "5f3a"
+    },
+    {
+      "title": "Django",
+      "slug": "old",
+      "amountOfVideos": 22,
+      "id": "79e2"
+    },
+    {
+      "title": "React Native",
+      "slug": "old",
+      "amountOfVideos": 14,
+      "id": "a982"
+    },
+    {
+      "title": "Ionic",
+      "slug": "old",
+      "amountOfVideos": 9,
+      "id": "3d62"
+    },
+    {
+      "title": "Flutter",
+      "slug": "old",
+      "amountOfVideos": 25,
+      "id": "c01d"
+    },
+    {
+      "title": "SwiftUI",
+      "slug": "old",
+      "amountOfVideos": 6,
+      "id": "8100"
+    },
+    {
+      "title": "Xamarin",
+      "slug": "old",
+      "amountOfVideos": 17,
+      "id": "be5e"
+    },
+    {
+      "title": "Laravel",
+      "slug": "old",
+      "amountOfVideos": 11,
+      "id": "8c38"
+    },
+    {
+      "title": "Spring Boot",
+      "slug": "old",
+      "amountOfVideos": 16,
+      "id": "c54f"
+    },
+    {
+      "title": "Flask",
+      "slug": "old",
+      "amountOfVideos": 4,
+      "id": "f029"
+    },
+    {
+      "title": "Ruby on Rails",
+      "slug": "old",
+      "amountOfVideos": 13,
+      "id": "39bf"
+    },
+    {
+      "title": "ASP.NET",
+      "slug": "old",
+      "amountOfVideos": 19,
+      "id": "9082"
+    },
+    {
+      "title": "Symfony",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "a96b"
+    },
+    {
+      "title": "jQuery",
+      "slug": "old",
+      "amountOfVideos": 23,
+      "id": "5c59"
+    },
+    {
+      "title": "Bootstrap",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "445d"
+    },
+    {
+      "title": "Tailwind CSS",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "1e1f"
+    },
+    {
+      "title": "Materialize CSS",
+      "slug": "old",
+      "amountOfVideos": 21,
+      "id": "16c1"
+    },
+    {
+      "title": "Bulma",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "162e"
+    },
+    {
+      "title": "Foundation",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "b736"
+    },
+    {
+      "title": "Skeleton",
+      "slug": "old",
+      "amountOfVideos": 28,
+      "id": "8b97"
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "6624"
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "5f9e"
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 20,
+      "id": "eb0b"
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "def2"
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "d079"
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 3,
+      "id": "7ae8"
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 18,
+      "id": "1bf1"
+    },
+    {
+      "title": "Node.js",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "5a59"
+    },
+    {
+      "title": "Express",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "5598"
+    },
+    {
+      "title": "Django",
+      "slug": "old",
+      "amountOfVideos": 22,
+      "id": "b0ad"
+    },
+    {
+      "title": "React Native",
+      "slug": "old",
+      "amountOfVideos": 14,
+      "id": "a69d"
+    },
+    {
+      "title": "Ionic",
+      "slug": "old",
+      "amountOfVideos": 9,
+      "id": "c269"
+    },
+    {
+      "title": "Flutter",
+      "slug": "old",
+      "amountOfVideos": 25,
+      "id": "dc20"
+    },
+    {
+      "title": "SwiftUI",
+      "slug": "old",
+      "amountOfVideos": 6,
+      "id": "23d1"
+    },
+    {
+      "title": "Xamarin",
+      "slug": "old",
+      "amountOfVideos": 17,
+      "id": "d2c7"
+    },
+    {
+      "title": "Laravel",
+      "slug": "old",
+      "amountOfVideos": 11,
+      "id": "fc0f"
+    },
+    {
+      "title": "Spring Boot",
+      "slug": "old",
+      "amountOfVideos": 16,
+      "id": "ee7c"
+    },
+    {
+      "title": "Flask",
+      "slug": "old",
+      "amountOfVideos": 4,
+      "id": "63ba"
+    },
+    {
+      "title": "Ruby on Rails",
+      "slug": "old",
+      "amountOfVideos": 13,
+      "id": "033d"
+    },
+    {
+      "title": "ASP.NET",
+      "slug": "old",
+      "amountOfVideos": 19,
+      "id": "06db"
+    },
+    {
+      "title": "Symfony",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "567c"
+    },
+    {
+      "title": "jQuery",
+      "slug": "old",
+      "amountOfVideos": 23,
+      "id": "8d2a"
+    },
+    {
+      "title": "Bootstrap",
+      "slug": "old",
+      "amountOfVideos": 12,
+      "id": "1669"
+    },
+    {
+      "title": "Tailwind CSS",
+      "slug": "old",
+      "amountOfVideos": 7,
+      "id": "aa3a"
+    },
+    {
+      "title": "Materialize CSS",
+      "slug": "old",
+      "amountOfVideos": 21,
+      "id": "1ff0"
+    },
+    {
+      "title": "Bulma",
+      "slug": "old",
+      "amountOfVideos": 15,
+      "id": "e86d"
+    },
+    {
+      "title": "Foundation",
+      "slug": "old",
+      "amountOfVideos": 10,
+      "id": "951a"
+    },
+    {
+      "title": "Skeleton",
+      "slug": "old",
+      "amountOfVideos": 28,
+      "id": "7648"
+    },
+    {
+      "title": "Semantic UI",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "19a0"
+    },
+    {
+      "title": "Ant Design",
+      "slug": "old",
+      "amountOfVideos": 30,
+      "id": "c01e"
+    },
+    {
+      "title": "UIKit",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "0e25"
+    },
+    {
+      "title": "Semantic UI",
+      "slug": "old",
+      "amountOfVideos": 5,
+      "id": "509c"
+    },
+    {
+      "title": "Ant Design",
+      "slug": "old",
+      "amountOfVideos": 30,
+      "id": "ebf3"
+    },
+    {
+      "title": "UIKit",
+      "slug": "old",
+      "amountOfVideos": 8,
+      "id": "ed6e"
+    },
+    {
+      "id": "ae74",
+      "name": "asdsadsa",
+      "slug": "asdsadsa"
+    },
+    {
+      "id": "761a",
+      "title": "eaeaea eaeaea",
+      "slug": "eaeaea-eaeaea",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "e1ff",
+      "title": "asdassad",
+      "slug": "asdassad",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "76ae",
+      "title": "eae meu irmão",
+      "slug": "eae-meu-irmao",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "40fe",
+      "title": "Livinha gomes nascimento",
+      "slug": "livinha-gomes-nascimento",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "deac",
+      "title": "magda oliveira",
+      "slug": "magda-oliveira",
+      "amountOfVideos": 0
+    }
+  ]
 }

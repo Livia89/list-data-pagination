@@ -49,14 +49,15 @@ function App() {
 		queryKey: ['get-tags', urlFilter, page], // each page is saved in cache
 		queryFn: async () => {
 			const response = await fetch(
-				`http://localhost:3333/tags?_page=${page}&_per_page=
-				${amountPerPage}&title=${urlFilter}`
+				`http://localhost:3333/tags?_page=${page}&_per_page=${amountPerPage}&title=${urlFilter}`
 			);
+
 			const data = response.json();
-
+			if (!response.ok) {
+				throw new Error('Failed to fetch tags');
+			}
 			// delay 2s
-
-			await new Promise(resolve => setTimeout(resolve, 2000));
+			await new Promise(resolve => setTimeout(resolve, 500));
 			return data;
 		},
 

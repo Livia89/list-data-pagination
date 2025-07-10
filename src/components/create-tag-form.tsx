@@ -42,6 +42,7 @@ export function CreateTagForm() {
 				method: 'POST',
 				body: JSON.stringify({ title, slug, amountOfVideos: 0 }),
 			});
+			console.log(title, slug);
 		},
 		onSuccess: () => {
 			queryClient.invalidateQueries({
